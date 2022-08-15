@@ -1,0 +1,19 @@
+{
+  "name": "l-ang",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tsc && node dist/test",
+    "readme": "tsc && node dist/readme",
+    "lint": "eslint src readme --fix"
+  },
+  "author": "bks1b",
+  "description": "A language for rendering Lindenmayer systems.",
+  "dependencies": {
+    "canvas": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
