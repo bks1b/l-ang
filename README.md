@@ -35,11 +35,11 @@ Key-value pairs can be single-line or multi-line, however, in some cases, only a
 ```
 key: value
 // or
-key: {
+key {
     value
 }
 // or
-key: {
+key {
     value1
     value2
     ...
